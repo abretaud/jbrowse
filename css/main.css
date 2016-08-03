@@ -197,6 +197,11 @@ input.icon {
     position: relative;
     text-align: center;
 }
+
+#navbox table {
+    width: initial;
+}
+
 #navbox .dijitButton, #navbox .dijitToggleButton, #navbox .dijitTextBox, #navbox .dijitSelect, #navbox .dojoxTriStateCheckBox {
     height: 20px;
     box-sizing: border-box;
@@ -574,7 +579,7 @@ input.icon {
 .jbrowse .tundra div.track-label:hover .track-menu-button:hover div {
     background-position-x: 0px;
 }
-div.track-label:hover {
+.jbrowse div.track-label:hover {
     background: #FAFAFA url(../src/dijit/themes/tundra/images/titleBar.png) repeat-x top left;
 
     border-width: 1px;
@@ -585,21 +590,21 @@ div.track-label:hover {
     opacity: 1.0;
 }
 
-div.tracklist-label {
+.jbrowse div.tracklist-label {
     padding: 3px;
     background-color: #ddd;
     background-color: rgba( 220, 220, 220, 0.9 );
 }
-div.tracklist-label:hover {
+.jbrowse div.tracklist-label:hover {
     background-color:  #396494;
     border: 1px solid black;
 }
 
-div.tracklist-container.dojoDndItemSelected {
+.jbrowse div.tracklist-container.dojoDndItemSelected {
     background-color:  #396494;
     background-color: rgb(110, 132, 156)
 }
-div.tracklist-container.dojoDndItemSelected .tracklist-label {
+.jbrowse div.tracklist-container.dojoDndItemSelected .tracklist-label {
     background-color: #b2c3d6;
 }
 
@@ -613,10 +618,10 @@ div.tracklist-container.dojoDndItemSelected .tracklist-label {
     margin: 0.5em 0 0 0.5em;
 }
 
-div.textfilter {
+.jbrowse div.textfilter {
     margin: 0.5em 0 1em 0.3em;
 }
-div.textfilter input {
+.jbrowse div.textfilter input {
     padding: 2px 0 2px 18px;
     width: 100%;
     height: 100%;
